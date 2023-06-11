@@ -2,7 +2,7 @@ import styles from './ArticleItem.module.scss';
 import Image from 'next/image';
 // import Card from '@/components/common/Card/Card';
 import { Card } from 'react-bootstrap';
-import Button from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 import ButtonLink from '@/components/common/ButtonLink'; 
 import { useRouter } from 'next/router';
 
