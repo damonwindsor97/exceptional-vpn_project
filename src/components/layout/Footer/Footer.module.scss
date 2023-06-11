@@ -1,0 +1,36 @@
+@use '@/styles/scss/abstracts/' as *;
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    p {
+        margin-top: 2vw;
+    }
+
+    ul {
+        margin-top: 2vw;
+        list-style: none;
+    }
+}
+
+ .leftSide {
+    text-align: left;
+     width: 30%
+}
+ .middle {
+    width: 30%;
+}
+
+.rightSide {
+     width: 30%;
+    text-align: right;
+}
+
+ .footerContent {
+    margin-top: 50px;
+    padding-top: 75px;
+ }

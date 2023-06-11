@@ -1,0 +1,15 @@
+@use '@/styles/scss/abstracts/' as *;
+
+.mainHeading {
+    padding: 10px;
+}
+
+.priceCard {
+    max-width: 20%;
+}
+
+.pricingSegment {
+    background-color: #fff ;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}

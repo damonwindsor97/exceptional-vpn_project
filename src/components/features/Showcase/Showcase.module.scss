@@ -1,0 +1,37 @@
+@use '@/styles/scss/abstracts/' as *;
+
+.showcase {
+  background: no-repeat center/cover;  
+  // bg-image is passed in as dynamic prop in Hero.jsx
+  width: 100%;
+  opacity: 90%;
+  color:#000000;
+  z-index: -1;
+  position:fixed;
+  left: 0px;
+  top: 0px;
+  clip:rect(0px,2800px,650px,0px);
+  img {
+  }
+
+    h1 {
+      font-size: 2em;
+      font-weight: 400;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #fff;
+
+      span {
+        font-weight: 700;
+      }
+    }
+}
+.overlay {
+  // background-color: lightblue;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
