@@ -53,7 +53,7 @@ const Header = () => {
                 Privacy Policy
               </NavDropdown.Item>
               <NavDropdown.Item href="terms">
-                T's & C's
+                Ts & Cs
               </NavDropdown.Item>
 
             </NavDropdown>
