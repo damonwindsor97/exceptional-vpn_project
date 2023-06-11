@@ -7,7 +7,7 @@ const newsPage = (props) => {
   return (
     <Fragment>
         <h1>News</h1>
-        <h4>The Latest VPN News</h4>
+        <h4>The Latest in VPN News</h4>
         {/* Step 3 is here, simple condition to render component */}
         {/* Step 4 in ArticleItem */}
         {vpnArticles.length > 0 && <ArticleList articles={vpnArticles}/>}
