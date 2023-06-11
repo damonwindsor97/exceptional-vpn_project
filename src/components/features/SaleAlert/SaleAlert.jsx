@@ -10,7 +10,7 @@ const SaleAlert = () => {
     return (
       <Alert variant="danger" onClose={() => setShow(false)} dismissible className='alertBox'>
         <p className='fw-bold'>
-            BUY NOW AND USE CODE "EXP20" FOR 20% OFF YOUR PURCHASE
+            BUY NOW AND USE CODE EXP20 FOR 20% OFF YOUR PURCHASE
         </p>
       </Alert>
     );
