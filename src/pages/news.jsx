@@ -17,17 +17,17 @@ const newsPage = (props) => {
 }
 
 // Step 1 for calling to API, Step 2 in ArticleList
-export const getStaticProps = async () => {
-    const response = await fetch(`https://newsapi.org/v2/everything?q=vpn&apiKey=${process.env.NEWS_API_KEY}`);
-    const data = await response.json.stringify();
-    const articles = data.articles;
+// export const getStaticProps = async () => {
+//     const response = await fetch(`https://newsapi.org/v2/everything?q=vpn&apiKey=${process.env.NEWS_API_KEY}`);
+//     const data = await response.json.stringify();
+//     const articles = data.articles;
 
-    return {
-        props: {
-            vpnArticles: articles
-        },
-        revalidate: 60
-    };
-};
+//     return {
+//         props: {
+//             vpnArticles: articles
+//         },
+//         revalidate: 60
+//     };
+// };
 
 export default newsPage
