@@ -18,8 +18,11 @@ const newsPage = (props) => {
 
 // Step 1 for calling to API, Step 2 in ArticleList
 export const getStaticProps = async () => {
-    const response = await fetch(`https://newsapi.org/v2/everything?q=vpn&apiKey=${process.env.NEWS_API_KEY}`);
+    const response = await fetch(`https://newsapi.org/v2/everything?sources=abc-news-au&pageSize=4&apiKey=${process.env.NEWS_API_KEY}`);
+
     const data = await response.json();
+    // const data = await JSON.parse(JSON.stringify(response));
+
     const articles = data.articles;
 
     // Return our Data as Props, Access to everything is within Articles - check postman with endpoint
