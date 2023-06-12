@@ -28,7 +28,7 @@ export const getStaticProps = async () => {
     // Return our Data as Props, Access to everything is within Articles - check postman with endpoint
     return {
         props: {
-            vpnArticles: articles ?? null,
+            vpnArticles: articles,
         },
         revalidate: 60
     };
