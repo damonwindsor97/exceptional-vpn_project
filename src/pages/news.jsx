@@ -10,7 +10,7 @@ const newsPage = (props) => {
         <h4>The Latest in VPN News</h4>
         {/* Step 3 is here, simple condition to render component */}
         {/* Step 4 in ArticleItem */}
-        {vpnArticles.length > 0 && <ArticleList articles={vpnArticles}/>}
+        {/* {vpnArticles.length > 0 && <ArticleList articles={vpnArticles}/>} */}
     </Fragment>
 
   )
@@ -22,6 +22,7 @@ export const getStaticProps = async () => {
     const data = await response.json();
     const articles = data.articles;
 
+    // Return our Data as Props, Access to everything is within Articles - check postman with endpoint
     return {
         props: {
             vpnArticles: articles
