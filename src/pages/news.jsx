@@ -28,7 +28,7 @@ const newsPage = (props) => {
 
 export const getStaticProps = async () => {
     try {
-      const response = await fetch(`https://newsapi.org/v2/everything?sources=abc-news-au&pageSize=4&apiKey=${process.env.NEWS_API_KEY}`);
+      const response = await fetch(`https://newsapi.org/v2/everything?q=vpn&pageSize=6&apiKey=${process.env.NEWS_API_KEY}`);
       const data = await response.json();
       const articles = data.articles || null;
   

@@ -12,19 +12,27 @@
   top: 0px;
   clip:rect(0px,2800px,650px,0px);
 
-    h1 {
-      font-size: 2em;
-      font-weight: 400;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: #fff;
+  img {
+    filter: brightness(50%)
+  }
 
-      span {
-        font-weight: 700;
-      }
+  h1 {
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 1;
+    span {
+      font-weight: 700;
     }
+  }
+
 }
 .overlay {
+
+ 
   // background-color: lightblue;
   height: 40vh;
   display: flex;
@@ -33,3 +41,4 @@
   justify-content: center;
 
 }
+
