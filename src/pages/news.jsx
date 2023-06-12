@@ -4,14 +4,14 @@ import ArticleList from '@/components/features/articles/ArticleList/ArticleList'
 const newsPage = (props) => {
     const { vpnArticles } = props;
 
-    if (vpnArticles === null) {
-      return (
-        <div>
-          <p>Failed to fetch VPN articles.</p>
-          <p>Please try again later.</p>
-        </div>
-      );
-    }
+    // if (vpnArticles === null) {
+    //   return (
+    //     <div>
+    //       <p>Failed to fetch VPN articles.</p>
+    //       <p>Please try again later.</p>
+    //     </div>
+    //   );
+    // }
   
     return (
       <Fragment>
