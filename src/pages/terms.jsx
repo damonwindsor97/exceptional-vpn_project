@@ -8,7 +8,7 @@ const terms = () => {
             <h1 className='main-heading'>Terms & Conditions</h1>
             <h5 className='sub-sub-heading'>Last updated June 13, 2023</h5>
             <h3 className='sub-heading'>AGREEMENT TO OUR LEGAL TERMS</h3>
-            <p>These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<bdt class="block-component"></bdt>'<strong>you</strong>'<bdt class="else-block"></bdt>), and <bdt class="question">Exceptional Virtual Private Network</bdt>, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms.</p>
+            <p>These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<bdt class="block-component"></bdt><strong>you</strong><bdt class="else-block"></bdt>), and <bdt class="question">Exceptional Virtual Private Network</bdt>, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms.</p>
             <p><strong>IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong></p>
 
             <p>We will provide you with prior notice of any scheduled changes to the Services you are using. The modified Legal Terms will become effective upon posting or notifying you by <strong>updates@exceptional.com</strong>, as stated in the email message. By continuing to use the Services after the effective date of any changes, you agree to be bound by the modified terms.</p>
