@@ -1,5 +1,6 @@
 import { Fragment } from 'react'
 import ArticleList from '@/components/features/articles/ArticleList/ArticleList';
+import { Button } from 'react-bootstrap';
 
 const newsPage = (props) => {
     const { vpnArticles } = props;
@@ -7,7 +8,9 @@ const newsPage = (props) => {
     if (vpnArticles === null) {
       return (
         <div>
-          <p>Failed to fetch VPN articles.</p>
+          <h1>News</h1>
+          <h4>The Latest in VPN News</h4>
+          <p>Failed to fetch VPN Articles.</p>
           <p>Please try again later.</p>
         </div>
       );
@@ -17,10 +20,13 @@ const newsPage = (props) => {
       <Fragment>
         <h1>News</h1>
         <h4>The Latest in VPN News</h4>
+        <Button href=''>
+          Tech News
+        </Button>
         {vpnArticles && vpnArticles.length > 0 ? (
           <ArticleList articles={vpnArticles} />
         ) : (
-          <p>No articles available</p>
+          <p>No VPN articles available at this time, please come back later</p>
         )}
       </Fragment>
     );

@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Footer.module.scss'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -24,8 +25,8 @@ const Footer = () => {
           </Col>
 
           <Col>
-          <p>Privacy Policy</p>
-          <p>Terms & Conditions</p>
+          <Link href='/privacypolicy'><p>Privacy Policy</p></Link>
+          <Link href='/terms'><p>Terms & Conditions</p></Link>
           </Col>
 
         </Row>
