@@ -31,3 +31,12 @@ a {
 .main-heading {
   font-weight: bold;
 }
+
+.main-form {
+  margin: auto;
+  max-width: 500px;
+  background-color: aliceblue;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.15);
+}

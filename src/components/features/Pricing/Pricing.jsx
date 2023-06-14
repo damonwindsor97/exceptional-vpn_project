@@ -6,8 +6,17 @@ import styles from './Pricing.module.scss'
 import { Container } from 'react-bootstrap';
 
 
+
+
+
+
 const Pricing = () => {
+
+
   return (
+
+
+    
     <div className={styles.pricingSegment}>
             <h1 className={styles.mainHeading}>Plans & Pricing</h1>
             <p>Checkout our competitive prices</p>
@@ -71,11 +80,11 @@ const Pricing = () => {
                 <h4>$24.95aud</h4><p> Per Month</p>
             </Card.Body>
 
-
-            <Button>Purchase</Button>
-
+            <Button >Purchase</Button>
         </Card>
+
         </CardGroup>
+
         </Container>
 
 

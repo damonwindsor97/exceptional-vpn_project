@@ -8,7 +8,7 @@ const newsPage = (props) => {
     if (vpnArticles === null) {
       return (
         <div>
-          <h1>News</h1>
+          <h1>VPN News</h1>
           <h4>The Latest in VPN News</h4>
           <p>Failed to fetch VPN Articles.</p>
           <p>Please try again later.</p>
@@ -20,7 +20,7 @@ const newsPage = (props) => {
       <Fragment>
         <h1>News</h1>
         <h4>The Latest in VPN News</h4>
-        <Button href=''>
+        <Button href='/technews'>
           Tech News
         </Button>
         {vpnArticles && vpnArticles.length > 0 ? (

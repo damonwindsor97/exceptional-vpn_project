@@ -45,7 +45,7 @@ const Header = () => {
               <NavDropdown.Item href="contact">
                 Contact
               </NavDropdown.Item>
-              <NavDropdown.Item href="About">
+              <NavDropdown.Item href="about">
                 About
               </NavDropdown.Item>
               <NavDropdown.Divider />
@@ -58,7 +58,7 @@ const Header = () => {
 
             </NavDropdown>
 
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="#toggle">
               Light&Dark Toggle
             </Nav.Link>
           </Nav>
