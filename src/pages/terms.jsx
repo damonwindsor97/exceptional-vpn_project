@@ -17,6 +17,10 @@ const terms = () => {
 
             <p>We reserve the right to refuse any order placed through the Services. We may, in our sole discretion, limit or cancel quantities purchased per person, per household, or per order. These restrictions may include orders placed by or under the same customer account, the same payment method, and/or orders that use the same billing or shipping address. We reserve the right to limit or prohibit orders that, in our sole judgement, appear to be placed by dealers, resellers, or distributors</p>
 
+            <h5 className='sub-heading'>Lorem ipsum dolor sit.</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ratione beatae fuga ipsa ut in dolorum laudantium exercitationem cupiditate quo est, eaque laboriosam maiores corrupti repellendus provident sapiente nihil cum tempora eos nesciunt hic ullam nostrum? Impedit veritatis tempora harum, mollitia magnam at quos debitis vel minus maxime consequatur rem obcaecati dicta, earum nobis amet? Temporibus delectus ex ab ad, neque in nihil ipsa dolorum similique excepturi a assumenda provident nisi et laudantium explicabo modi, laboriosam quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem culpa doloribus iste quisquam beatae quas soluta ducimus, nesciunt consequuntur totam?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate modi voluptatibus vero assumenda, quod quos doloribus explicabo hic possimus est dignissimos, ut quae dolores temporibus consequatur dicta corporis consectetur soluta.</p>
+
         </Container>
 
       
