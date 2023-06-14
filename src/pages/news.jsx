@@ -12,6 +12,9 @@ const newsPage = (props) => {
           <h4>The Latest in VPN News</h4>
           <p>Failed to fetch VPN Articles.</p>
           <p>Please try again later.</p>
+          <Button href='/technews'>
+          TechRadar News
+        </Button>
         </div>
       );
     }
@@ -21,7 +24,7 @@ const newsPage = (props) => {
         <h1>News</h1>
         <h4>The Latest in VPN News</h4>
         <Button href='/technews'>
-          Tech News
+          TechRadar News
         </Button>
         {vpnArticles && vpnArticles.length > 0 ? (
           <ArticleList articles={vpnArticles} />
