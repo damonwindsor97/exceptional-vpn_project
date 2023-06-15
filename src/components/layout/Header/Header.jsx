@@ -6,6 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'next/image';
 import ExLogo from '../../../../public/images/global-network.webp'
 import SaleAlert from '@/components/features/SaleAlert/SaleAlert';
+import styles from './Header.module.scss'
 
 const Header = () => {
 
@@ -13,7 +14,7 @@ const Header = () => {
   return (
     <div>
 
- <Navbar collapseOnSelect expand="lg" bg="white" variant="light" >
+ <Navbar className={styles.mainNav} collapseOnSelect expand="lg" bg="white" variant="light" fixed="top">
       <Container>
 
         <Navbar.Brand href="/">

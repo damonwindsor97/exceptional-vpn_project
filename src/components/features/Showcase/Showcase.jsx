@@ -10,7 +10,7 @@ const Showcase = ({ title, description, bgImage }) => {
         <Image   className={styles.showcase}  alt='connected' src={showcaseImage}  width='' height=''></Image>
 
       <div className={styles.overlay}>
-        <h1>Stay <span>Safe</span></h1>
+        <h1 className={styles.toph1}>Stay <span>Safe</span></h1>
         <h1>Stay <span>Connected</span></h1>
         <h1>Stay <span>Exceptional</span></h1>
       </div>
