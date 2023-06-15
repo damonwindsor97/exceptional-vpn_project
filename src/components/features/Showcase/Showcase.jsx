@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from './Showcase.module.scss';
-import showcaseImage from './/../../../images/hand-globe-hand.jpg'
+import showcaseImage from './/../../../images/hand-globe-hand.webp'
 
 const Showcase = ({ title, description, bgImage }) => {
   return (

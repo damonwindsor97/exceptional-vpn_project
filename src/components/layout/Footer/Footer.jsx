@@ -13,15 +13,27 @@ const Footer = () => {
 
           <Col>
           <ul className='leftNavFooter'>
-            <li>Home</li>
-            <li>Pricing</li>
-            <li>Features</li>
-            <li>News</li>
+            <Link href='/'>
+              <li>Home</li>
+            </Link>
+
+            <Link href='pricing'>
+              <li>Pricing</li>
+            </Link>
+
+            <Link href='features'>
+              <li>Features</li>
+            </Link>
+
+            <Link href='news'>
+              <li>News</li>
+            </Link>
           </ul>
           </Col>
 
           <Col>
-          <p>      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cum.</p>
+          <p>Images provided by Unsplash</p>
+          <p>A beginners project using Next.js and calling an API</p>
           </Col>
 
           <Col>

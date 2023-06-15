@@ -1,0 +1,17 @@
+@use '@/styles/scss/abstracts/' as *;
+
+
+.features {
+    background-color: #f0f6ff;
+    padding-bottom: 100px;
+}
+
+.featureImage {
+    border-radius: 10px;
+    box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.15);
+}
+
+.featureRow {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
