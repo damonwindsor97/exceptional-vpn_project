@@ -8,7 +8,7 @@
 
 ## Features
 
-* Pull Data from the NewsAPI
+* Pull and Display Data from the NewsAPI
 
 
 
