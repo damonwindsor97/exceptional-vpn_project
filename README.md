@@ -22,7 +22,7 @@
   
 ### Installation
 
-1. Get a free API Key at [(https://developers.sellix.io/)](https://developers.sellix.io/)
+1. Get a free API Key at [https://newsapi.org/]
 2. Clone the repo
    ```sh
    git clone https://github.com/damonwindsor97/exceptional-vpn_project.git
