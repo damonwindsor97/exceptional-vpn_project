@@ -1,5 +1,5 @@
 
-## A project made as an Assessment for my Diploma
+<h3 align="center">News API with Next.js</h3>
 ### Built With
 
 * [![Next][Next.js]][Next-url]
@@ -9,6 +9,7 @@
 ## Features
 
 * Pull and Display Data from the NewsAPI
+* Light/Dark Mode (soon)
 
 
 
@@ -50,6 +51,10 @@
 
 
 ### HTML, CSS, SCSS, JavaScript, ,Next, React, Bootstrap
+
+![image](https://github.com/damonwindsor97/exceptional-vpn_project/assets/98252803/af46c216-053e-407b-be4b-4b3c65d7cc32)
+![image](https://github.com/damonwindsor97/exceptional-vpn_project/assets/98252803/d6b413f5-a38a-4c22-a47a-9156407b9dce)
+
 
 
 
