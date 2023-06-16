@@ -1,5 +1,10 @@
 
 <h3 align="center">News API with Next.js</h3>
+  <p align="center">
+    Using the News API to pull data and display in an orderly fashion using Next.js. This is the first time using Next.js so I chose a rather simple API to use.
+  </p>
+
+## A project made as an Assessment for my Diploma
 ### Built With
 
 * [![Next][Next.js]][Next-url]
@@ -10,8 +15,6 @@
 
 * Pull and Display Data from the NewsAPI
 * Light/Dark Mode (soon)
-
-
 
 
 ### Prerequisites
