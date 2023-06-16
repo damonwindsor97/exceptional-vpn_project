@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import ArticleList from '@/components/features/articles/ArticleList/ArticleList';
 import { Button } from 'react-bootstrap';
+import Head from 'next/head';
 
 const newsPage = (props) => {
     const { vpnArticles } = props;
@@ -21,6 +22,13 @@ const newsPage = (props) => {
   
     return (
       <Fragment>
+          <Head>
+            <title>Exceptional | VPN News</title>
+            <meta 
+              name='Exceptional VPN'
+              description='Exceptional VPN Brings you the latest news'
+              />
+          </Head>
         <h1>News</h1>
         <h4>The Latest in VPN News</h4>
         <Button href='/technews'>

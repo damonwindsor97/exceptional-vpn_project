@@ -13,21 +13,21 @@ const Footer = () => {
 
           <Col>
           <ul className='leftNavFooter'>
-            <Link href='/'>
-              <li>Home</li>
-            </Link>
+            <li><Link href='/'>
+              Home
+            </Link></li>
 
-            <Link href='pricing'>
-              <li>Pricing</li>
-            </Link>
+            <li><Link href='pricing'>
+              Pricing
+            </Link></li>
 
-            <Link href='features'>
-              <li>Features</li>
-            </Link>
+            <li><Link href='features'>
+              Features
+              </Link></li>
 
-            <Link href='news'>
-              <li>News</li>
-            </Link>
+            <li><Link href='news'>
+              News
+            </Link></li>
           </ul>
           </Col>
 
