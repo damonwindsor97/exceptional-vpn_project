@@ -1,20 +1,58 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'next/image';
+
 import ExLogo from '../../../../public/images/global-network.webp'
 import SaleAlert from '@/components/features/SaleAlert/SaleAlert';
 import styles from './Header.module.scss'
 
 const Header = () => {
 
+  const [query, setQuery] = useState()
+
+  const handleChange = (d) => {
+    console.log(d.target.value);
+    setQuery(d.target.value);
+  };
+
+  // Create the value in State - Applies to both
+  const [darkMode, setDarkMode] = useState(false)
+
+  useEffect(() => {
+    // Looking for darkMode Value, loading into darkModeValue variable
+    let darkModeValue = localStorage.getItem("darkMode")
+    // IF a Dark Mode value is present
+    if (darkModeValue === "true") {
+      setDarkMode(true)
+    } else {
+      setDarkMode(false)
+    }
+  }, [])
+
+
+  // Clikcing on this changes darkMode to False, save to Local Storage
+  const handleWhite = (e) => {
+    setDarkMode(false)
+    localStorage.setItem("darkMode", "false")
+  }
+
+  // Clicking on this changes darkMode to True, save to Local Storage
+  const handleBlack = (e) => {
+    setDarkMode(true)
+    localStorage.setItem("darkMode", "true")
+  }
 
   return (
-    <div>
+  <div>
 
- <Navbar className={styles.mainNav} collapseOnSelect expand="lg" bg="white" variant="light" fixed="top">
+  <Navbar className={styles.mainNav} collapseOnSelect expand="lg" bg="white" variant="light" fixed="top" query={query} onChange={handleChange}>
+
+    <link rel="stylesheeet" type="text/css" href={!darkMode ? '/light.css' : 'dark.css'}></link>
+
       <Container>
 
         <Navbar.Brand href="/">
@@ -59,8 +97,11 @@ const Header = () => {
 
             </NavDropdown>
 
-            <Nav.Link eventKey={2} href="#toggle">
-              Light&Dark Toggle
+            <Nav.Link type="button" id="switch" alt="LightMode" onClick={handleWhite}>
+              Light
+            </Nav.Link>
+            <Nav.Link  type="button" id="switch" alt="DarkMode" onClick={handleBlack}>
+              Dark
             </Nav.Link>
           </Nav>
 
