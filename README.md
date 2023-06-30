@@ -49,7 +49,7 @@
 
 ## Known Bugs
 
-* Light/Dark Mode Toggle not working
+* Light/Dark Mode Toggle not working properly
 * 
 
 
