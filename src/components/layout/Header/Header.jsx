@@ -72,7 +72,7 @@ const Header = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="features">Features</Nav.Link>
             <Nav.Link href="pricing">Pricing</Nav.Link>
-            <Nav.Link href="whatisvpn">What is a VPN?</Nav.Link>
+            <Nav.Link href="whatisvpnPage">What is a VPN?</Nav.Link>
             <Nav.Link href="news">News</Nav.Link>
           </Nav>
 

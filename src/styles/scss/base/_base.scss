@@ -32,7 +32,7 @@ a {
   font-weight: bold;
 
   padding: 20px;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .main-form {
@@ -43,4 +43,8 @@ a {
   border-radius: 10px;
   box-shadow: 1px 3px 6px 1px rgba(0, 0, 0, 0.15);
 
+}
+
+.text-seperation {
+  margin-bottom: 40px;
 }
